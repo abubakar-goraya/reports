@@ -92,6 +92,6 @@ Minification is essentially only shriking the text or code, making code smaller 
 5. https://chat.deepseek.com
 6. https://chatgpt.com
 7. https://notebook.google.com
-8. https://javascript.info/polyfills
+8. https://javascript.info/polyfills 
 
 
