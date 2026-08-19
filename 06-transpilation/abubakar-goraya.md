@@ -3,21 +3,21 @@
 ## 1. Definition
 
 ### **HISTORY**
-_Transpilation comes from two words "translate" and "compilation". It first emerged between the 1960s and 1970s with tools for translating languages like COBOL , assembly , etc._
+_Transpilation comes from two words "translate" and "compilation". It first emerged as a technique to translate source code of one high level langauge or version into another.Originally between the 1960s and 1970s with tools for translating languages like COBOL , assembly , etc. It became very useful for developers and got advancement progressively._
 
-Transpilation is the type of compilation that takes high-level source code and converts it into another high-level source code while keeping the abstraction level same (not changing the logic of code, mostly changing just the syntax). It is also called source to source compilation. Examples of transpilers include Babel, CoffeeScript, TypeScript, etc.
+Transpilation is the type of compilation that takes high-level source code and converts it into another high-level source code while keeping the abstraction level same (not changing the logic of code, mostly changing just the syntax). It is also called **source to source** compilation. Examples of transpilers include Babel, CoffeeScript, TypeScript, etc.
 
 Unlike compilation, it does not convert human read-able source code into machine read-able code , rather it transpiles HLL source code into another HLL source code.
 
 ## 2. Necessity 
 
-1. It was needed so that the code written in latest syntax could be run on older version of browser which won't recogize the latest version of HLL source code.It also helps developers in converting some program or code written in one HLL into another HLL or HLL version. Example JS(ES6) to JS(ES5).
+1. It is needed so that the code written in latest syntax can be run on older version of browser which will not be able to recogize the latest version of HLL source code.It also helps developers in converting some program or code written in one HLL into another HLL or HLL version. Example JS(ES6) to JS(ES5). Other examples also include converting javascript into c++.
 
 2. It is also needed for langauges like TypeScript, CoffeeScript, etc.,that browsers cannot execute or read directly. So, a transpiler convers TypeScript source code into JavaScript source code. In this way way the browser can run the code after transpilation.
 
 ## 3. Working
 
-A transpiler reads the source code and builds an AST, Abstract Syntax Tree. Then it makes tokens of sections of code for parsing. These tokens are then parsed in the form of group to be syntaxized accordingly. The changes are saved in the AST tree and then the code is executed. It can then translate the updated AST with new syntax source code. It is finally then used to give output source code.
+A transpiler reads the source code analyzes the structure of code. It is called as lexical analysis. The source code is then divided into smaller parts called tokens. Tokens include the parts of code. These tokens are then parsed to an **Abstract Syntax Tree** (AST), which is created to represent the parts of code in tokens. The AST is then transformed by the transpiler by changing the version of source code. These tokens are then parsed in the form of group to be syntaxized accordingly. The changes are saved in the AST tree and then the code is executed. After that , the updated AST is converted back into source code. It is finally then used to give output source code accordingly.
 
 
 ## 4. Proof 
@@ -84,7 +84,14 @@ Minification is essentially only shriking the text or code, making code smaller 
 
 ### Sources
 
+1. https://babeljs.io/docs/
+2. https://www.typescriptlang.org/play
+3. https://babeljs.io/repl
+4. https://www.bing.com/search?pglt=43&q=transpilation+working+and+concept&cvid=6d0c9081fa104360a50b334acdf5a875&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOdIBCTQzOTcxajBqN6gCALACAA&FORM=ANNTA1&PC=U531
 
-
+5. https://chat.deepseek.com
+6. https://chatgpt.com
+7. https://notebook.google.com
+8. https://javascript.info/polyfills
 
 
